@@ -6,6 +6,19 @@ font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
@@ -14,22 +27,30 @@ h2 {
 
 .hero {
   text-align: center;
-  background-color: #f8d8f8;
-  padding: 120px 80px;
+  background: #f8d8f8;
+  padding: 160px 20px;
 }
 
 .hero p {
-  font-size: 30px;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
 }
 
-p {
+.hero h2 {
   font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  font-size: 24px;
   font-weight: normal;
 }
 
 .btn-branding {
   color: white;
-  background-color: aquamarine;
-  padding: 10px 20px;
+  background-color: #6c63ff;
+  padding: 15px 30px;
+  line-height: 27px;
+  font-size: 18px;
+  border-radius: 4px;
 
 }
