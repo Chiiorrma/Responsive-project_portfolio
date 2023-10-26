@@ -1,7 +1,35 @@
-/*font-family: 'Playfair Display', serif;
+/*<i class="fa-brands fa-instagram"></i>
+      <i class="fa-regular fa-envelope"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-github"></i>
+font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 */
-body {
-  background: rgb(168, 168, 123);
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  background-color: #f8d8f8;
+  padding: 120px 80px;
+}
+
+.hero p {
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.btn-branding {
+  color: white;
+  background-color: aquamarine;
+  padding: 10px 20px;
+
 }
