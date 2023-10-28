@@ -65,7 +65,7 @@ h2 {
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
 }
 
@@ -99,5 +99,14 @@ a:hover {
   .description {
     padding: 0;
     text-align: center;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 45px;
   }
 }
